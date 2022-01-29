@@ -6,6 +6,7 @@ import SectionTitle from '../components/SectionTitle'
 import List from '../components/List'
 import VotePill from '../components/VotePill'
 import * as SVG from '../components/SVGIcons'
+import Footer from '../components/Footer'
 
 const Home: NextPage = () => {
   const { i18n } = useTranslation()
@@ -16,7 +17,7 @@ const Home: NextPage = () => {
         <title>{i18n.SEO_TITLE}</title>
       </Head>
       <Header />
-      <section className='mt-32'>
+      <section className='mb-24'>
         <h1 className='mx-auto max-w-5xl text-center text-8xl font-bold text-white'>
           {i18n.HERO_TITLE}
         </h1>
@@ -60,6 +61,7 @@ const Home: NextPage = () => {
           </List>
         </div>
       </section>
+      <Footer />
     </>
   )
 }
