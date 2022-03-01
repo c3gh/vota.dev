@@ -26,7 +26,7 @@ const Home: NextPage = () => {
         </p>
 
         <div className='mx-auto mt-20 max-w-4xl rounded-lg border-2 border-black bg-white p-10'>
-          <SectionTitle>Frontend</SectionTitle>
+          <SectionTitle>{i18n.FRONTEND}</SectionTitle>
           <List>
             <VotePill title='React' svg={<SVG.React />} />
             <VotePill title='Angular' svg={<SVG.Angular />} />
@@ -35,7 +35,7 @@ const Home: NextPage = () => {
             <VotePill title='Preact' svg={<SVG.Preact />} />
           </List>
 
-          <SectionTitle>Backend</SectionTitle>
+          <SectionTitle>{i18n.BACKEND}</SectionTitle>
           <List>
             <VotePill title='Nest.js' svg={<SVG.Nest />} />
             <VotePill title='Express' svg={<SVG.Express />} />
@@ -43,7 +43,7 @@ const Home: NextPage = () => {
             <VotePill title='Hapi' svg={<SVG.Hapi />} />
           </List>
 
-          <SectionTitle>Fullstack</SectionTitle>
+          <SectionTitle>{i18n.FULLSTACK}</SectionTitle>
           <List>
             <VotePill title='Next.js' svg={<SVG.Next />} />
             <VotePill title='Nuxt' svg={<SVG.Nuxt />} />
@@ -51,7 +51,7 @@ const Home: NextPage = () => {
             <VotePill title='Remix' svg={<SVG.Remix />} />
           </List>
 
-          <SectionTitle>Empaquetadores de código</SectionTitle>
+          <SectionTitle>{i18n.BUNDLERS}</SectionTitle>
           <List>
             <VotePill title='Webpack' svg={<SVG.Webpack />} />
             <VotePill title='Rollup' svg={<SVG.Rollup />} />
